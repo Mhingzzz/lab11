@@ -67,7 +67,7 @@ export default function roomIdMessageIdRoute(req, res) {
 			}
 			return res.status(401).json({
 				ok: false,
-				message: "Yon don't permission to access this api",
+				message: "Yon don't permission to access this data",
 			});
 		}
 	}
